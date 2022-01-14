@@ -1,0 +1,75 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "C:\\Code Repos\\site\\ludwixix\\src\\index.tsx",
+  "plugins": [
+    [
+      "react-static-plugin-sass",
+      {
+        "cssLoaderOptions": {
+          "modules": true,
+          "localIdentName": "[name]__[local]--[hash:base64:5]",
+          "importLoaders": 2
+        }
+      }
+    ],
+    "react-static-plugin-typescript",
+    [
+      "C:\\Code Repos\\site\\ludwixix\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Code Repos\\site\\ludwixix\\src\\pages"
+      }
+    ],
+    "C:\\Code Repos\\site\\ludwixix\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Code Repos\\site\\ludwixix\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Code Repos\\site\\ludwixix"
+  ],
+  "paths": {
+    "ROOT": "C:\\Code Repos\\site\\ludwixix",
+    "SRC": "C:\\Code Repos\\site\\ludwixix\\src",
+    "DIST": "C:\\Code Repos\\site\\ludwixix\\dist",
+    "ASSETS": "C:\\Code Repos\\site\\ludwixix\\dist",
+    "PLUGINS": "C:\\Code Repos\\site\\ludwixix\\plugins",
+    "TEMP": "C:\\Code Repos\\site\\ludwixix\\tmp",
+    "ARTIFACTS": "C:\\Code Repos\\site\\ludwixix\\artifacts",
+    "PUBLIC": "C:\\Code Repos\\site\\ludwixix\\public",
+    "NODE_MODULES": "C:\\Code Repos\\site\\ludwixix\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Code Repos\\site\\ludwixix\\node_modules",
+    "PACKAGE": "C:\\Code Repos\\site\\ludwixix\\package.json",
+    "HTML_TEMPLATE": "C:\\Code Repos\\site\\ludwixix\\dist\\index.html",
+    "STATIC_DATA": "C:\\Code Repos\\site\\ludwixix\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

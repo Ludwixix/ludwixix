@@ -1,7 +1,10 @@
 {
+  "homepage": "http://ludwixix.github.io/react-gh-pages",
   "name": "react-static-example-typescript",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
@@ -42,6 +45,7 @@
     "@types/react-burger-menu": "^2.8.3",
     "@types/react-dom": "^16.9.11",
     "@types/webpack-env": "^1.16.0",
+    "gh-pages": "^3.2.3",
     "react-hot-loader": "^4.13.0",
     "serve": "^11.3.2",
     "typescript": "^4.1.5"

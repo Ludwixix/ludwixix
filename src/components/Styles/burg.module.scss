@@ -1,0 +1,7 @@
+.burgContainer{
+    min-width: 85.5px;
+}
+
+:global .burger .burger-lines:before { background-color:#f6c5be;}
+:global .burger .burger-lines:after { background-color:black;}
+:global .burger .burger-lines { background-color:black;}

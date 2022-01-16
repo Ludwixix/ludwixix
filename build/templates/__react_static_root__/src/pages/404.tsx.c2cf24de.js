@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{54:function(e,n,a){"use strict";a.r(n);var t=a(0),c=a.n(t);a(138);n.default=function(){return c.a.createElement("div",{className:"page"},c.a.createElement("h1",null,"404 - Oh no's! We couldn't find that page :("))}}}]);
+//# sourceMappingURL=404.tsx.c2cf24de.js.map

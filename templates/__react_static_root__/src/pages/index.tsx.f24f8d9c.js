@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{69:function(e,a,n){"use strict";n.r(a);var t=n(0),i=n.n(t);n(165);a.default=function(){return i.a.createElement("div",{className:"page",style:{height:"100%"}},i.a.createElement("div",null,"🍻 Cheers, I am Sam. I like to code and ride my bike 🚲"))}}}]);
